@@ -1,4 +1,4 @@
-#Landing Page Product - A project for freecodecamp
+# Landing Page Product - A project for freecodecamp
 
 This is a simple landing page for a toothpaste, made for freecodecamp. 
 

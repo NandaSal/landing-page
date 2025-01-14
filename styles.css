@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: verdana;
+}
+
+.header {
+  width: 100%;
+  background-color: #9747ff;
+  color: #ff32af;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Shrikhand';
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+
+.header-img {
+  width: 65px;
+  height: 65px;
+  margin: 15px;
+}
+
+.nav-list {
+  display: flex;
+  list-style-type: none;
+  gap: 32px;
+  justify-content: space-between;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: yellow;
+  text-transform: uppercase;
+  margin: 15px;
+  font-family: 'Shrikhand';
+}
+
+.title, .product-title {
+  margin: 1.2rem;
+  font-family: 'Shrikhand';
+  letter-spacing: 0.2rem;
+  text-align: center;
+}
+
+.title, .paragraph, .video, 
+.our-product, .contact, .footer {
+  position: relative;
+  top: 6rem;
+}
+
+.paragraph {
+  margin: 2rem;
+  position: relative;
+  top: 6rem;
+}
+
+.video {
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 2rem;
+  width: 500px;
+  height: 280px;
+}
+
+.product-title {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.product-img {
+  width: 15rem;
+  margin: 0 auto;
+  display: block;
+}
+
+.product-paragraph {
+  margin: 1.5rem;
+  text-align: center;
+}
+
+.our-product {
+  margin-bottom: 2rem;
+}
+
+.contact {
+  margin: 1.2rem;
+  background-color: #9747ff;
+  padding: 1.2rem;
+  color: yellow;
+  text-align: center;
+  font-weight: bold;
+}
+
+.email {
+  margin-right: 2rem;
+  width: 14rem;
+}
+
+#submit {
+  background-color: yellow; 
+  width: 5rem;
+  height: 2rem;
+  border-radius: 5px;
+}
+
+#submit:hover {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.footer {
+  background-color: yellow;
+  height: 5rem;
+}
+
+.footer-text {
+  padding-top: 2rem;
+  padding-left: 0.8rem;
+}
+
+@media screen and (max-width: 590px) {
+  .title {
+    text-align: left;
+  }
+  .video {
+    width: 350px;
+    height: 200px;
+  }
+}
